@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    padding: 16px 48px;
+    min-height: 100vh;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: auto;
+}
+
+ul{
+    display: flex;
+    padding: 0;
+    margin: 0;
+    gap: 16px;
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.first{
+    display:flex;
+}
+.first-left{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 50%
+}
+ .first-left > button {
+     width: 25%;
+ }
+
+ footer{
+     margin-top: auto;
+     align-self: center;
+ }
