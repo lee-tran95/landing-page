@@ -11,7 +11,7 @@ header{
     flex-direction: column;
     justify-content: space-between;
     background-color:#1f2937;
-    padding: 12px 120px 60px 120px ;
+    padding: 12px 120px 60px 120px;
 }
 
 header > section > h1 {
@@ -73,6 +73,7 @@ a{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
+    padding: 12px 120px 60px 120px;
 }
 .second > h3{
     align-self: center;
@@ -83,18 +84,25 @@ a{
 
 .content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: space-between;
+    flex-wrap: wrap;
     gap: 32px;
 }
 
+.item > p{
+    overflow-wrap: break-word;
+}
+
 .item{
-    width: 200px;
+    width: 125px;
 }
 .item > img {
     border: 2px solid blue;
+    width: 125px;
+    height: 125px;
 }
 
+/* This is the start of the Third section */
 
 footer{
     margin-top: auto;
