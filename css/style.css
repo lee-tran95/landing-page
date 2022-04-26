@@ -76,6 +76,9 @@ a{
 }
 .second > h3{
     align-self: center;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 800;
 }
 
 .content {
@@ -87,6 +90,9 @@ a{
 
 .item{
     width: 200px;
+}
+.item > img {
+    border: 2px solid blue;
 }
 
 
