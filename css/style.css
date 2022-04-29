@@ -122,7 +122,30 @@ a{
 
 .fourth{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 120px 60px 120px;
 }
+ .fourth-center{
+     display: flex;
+     background-color: #3882F6;
+ }
+
+ .fourth-center  h3,
+ .fourth-center  p{
+    margin: 0;
+ }
+
+ .button{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+ }
+ .button > button{
+     color: white;
+     background-color: #3882F6;
+     border: 2px solid white
+ }
 
 
 footer{
