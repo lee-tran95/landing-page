@@ -120,6 +120,9 @@ a{
     font-weight: 800;
 }
 
+.fourth{
+    display: flex;
+}
 
 
 footer{
