@@ -129,11 +129,16 @@ a{
  .fourth-center{
      display: flex;
      background-color: #3882F6;
+     padding: 25px 120px 25px 120px;
+     justify-content: space-between;
+     width: 75%;
+     gap: 20px;
  }
 
  .fourth-center  h3,
  .fourth-center  p{
     margin: 0;
+    color:#fff
  }
 
  .button{
@@ -142,9 +147,13 @@ a{
      align-items: center;
  }
  .button > button{
-     color: white;
+     border: 2px solid white;
      background-color: #3882F6;
-     border: 2px solid white
+     border-radius: 5px;
+     color:#fff;
+     font-size: 18px;
+     width: 100px;
+     margin-left: 50px;
  }
 
 
