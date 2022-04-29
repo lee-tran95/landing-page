@@ -106,8 +106,21 @@ a{
 
 .third{
     display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
+    padding: 60px 120px 60px 120px;
 }
+.third > p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+.third > aside {
+    align-self: flex-end;
+    font-weight: 800;
+}
+
+
 
 footer{
     margin-top: auto;
